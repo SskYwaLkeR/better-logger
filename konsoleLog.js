@@ -1,4 +1,4 @@
-export default function konsoleLog(strings, ...values){
+export default function konsolelog(strings, ...values){
     var str = "";
     for(let i = 0; i < strings.length; i++){
         if(i > 0){

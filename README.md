@@ -1,17 +1,17 @@
 # What is this ?
 
-    konsoleLog is a simple utility function that helps you debug your JS code in a better way.
+    konsolelog is a simple utility function that helps you debug your JS code in a better way.
 
 # Installation
 
-    `npm install konsoleLog --save`
+    `npm install konsolelog --save`
 
 
 # Example 1
 
 ```
 
-    import konsoleLog from 'konsoleLog'
+    import konsolelog from 'konsolelog'
 
     var API_data = {
         name: 'Hrishikesh',
@@ -23,9 +23,9 @@
     console.log(`Api data1 : ${API_data}`); 
         //Api data1 : [object Object]
 
-    //with konsoleLog
+    //with konsolelog
 
-    konsoleLog `Api data1 : ${API_data}`
+    konsolelog `Api data1 : ${API_data}`
         //Api data1 : {name: 'hrishikesh' , github: 'sskywalker'}
 
 
@@ -35,13 +35,13 @@
 
 ```
 
-    import konsoleLog from 'konsoleLog'
+    import konsolelog from 'konsolelog'
 
     try{
         nothing();
     }
     catch(err){
-        konsoleLog `Error : ${err}`; 
+        konsolelog `Error : ${err}`; 
          // Error : ReferenceError : nothing is not defined at <Your error stack>
     }
 
